@@ -5,13 +5,13 @@ from math import *
 # Your expression should have a __str__() function defined for it.
 
 functions = {
-     "no idea":lambda x,y:(sin(x*y)),
-     "mul": lambda x, y:sin(cos(x*y)),
-     "max": max,
-     "min": min,
-    "one_more": lambda x, y: sin(pi * sin(x * y)),
-     'another': lambda x, y: exp(cos(y)+(cos(x))),
-    'loco': lambda x, y: cos(cos(x * y))}
+     "no idea":lambda x,y:(cos(x*80)),
+     "mul": lambda x, y:sin(cos(50*y)),
+     "maxi": lambda x, y:exp(cos(45*x)),
+     "minni": lambda x, y:sin(pow(10)*x),
+    "one_more": lambda x, y: sin(40 * sin(x * y)),
+     'another': lambda x, y: exp(cos(65)+(cos(x))),
+    'loco': lambda x, y: cos(cos(10 * y))}
 
 
 def create_expression():
